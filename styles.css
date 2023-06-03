@@ -1,0 +1,352 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  background-color: #242424;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.navBar {
+  width: 100%;
+  height: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 22;
+  backdrop-filter: blur(20px);
+  background-color: rgba(36, 36, 36, 0.3);
+}
+.navMenu {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+.titleNavBar {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+.titleNavBar span {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: coral;
+}
+.contactUsNum {
+  width: 25%;
+  height: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+.contactUsNum span {
+  color: #ffc515;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.navMenu ul {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.navItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  font-size: 1.1em;
+}
+.active {
+  color: #ffc515;
+  font-weight: 700;
+}
+.introBanner {
+  width: 100%;
+  height: 100vh;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.introBanner button {
+  display: none !important;
+}
+.caroussel {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+.caroussel h1 {
+  font-size: 6em;
+  font-weight: 700;
+}
+.caroussel p {
+  font-size: 1em;
+  text-align: right;
+}
+
+.slick-list {
+  height: 100vh !important;
+}
+.slick-track {
+  width: 100% !important;
+  height: 100vh !important;
+}
+.slide1 {
+  background-image: url('https://www.maisondecoret.com/media/cache/jadro_resize/rc/yAGaS1Ea1653031068/jadroRoot/medias/59ce448743c37/jacques-decoret-mai-2017-cuisine-17.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide2 {
+  background-image: url('https://www.theparkgatehotel.wales/propeller/uploads/sites/2/2022/10/PGH-The-Sorting-Room-Tall-Banner-1450x574.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: contrast(0%);
+}
+.slide3 {
+  background-image: url('https://ideat.fr/wp-content/uploads/sites/3/2023/01/restaurant-sphere-paris-slider-salle-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: contrast(40%);
+}
+.welcome {
+  width: 100%;
+  background-color: #fdfdfd;
+  color: #242424;
+  min-height: 60vh;
+}
+.title {
+  width: 100%;
+  height: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 4em;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 40%;
+}
+.item {
+  width: 500px;
+  height: 150px;
+  justify-content: center;
+  text-align: center;
+}
+.item h3 {
+  text-align: center;
+}
+.signature {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signature img {
+  width: 200px;
+}
+.Testimonial {
+  width: 100% !important;
+  max-height: 50vh !important;
+  background-image: url('https://jobijoba.imgix.net/files/fr/fiches_metiers/Chef-de-rang.png?blend-alpha=60&blend-color=333333&blend-mode=normal&auto=compress');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+.slick-prev {
+  display: none !important;
+}
+.slick-next {
+  display: none !important;
+}
+.TestimonialContent {
+  width: 100vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+.testimonialItem {
+  padding: 10px !important;
+  height: 300px !important;
+}
+.TestimonialContent ul {
+  display: none !important;
+}
+.testimonialItem p {
+  font-size: 1.5em;
+  margin: 10px;
+}
+.client {
+  text-align: right;
+}
+.client span {
+  color: #ffc515;
+  margin: 10px;
+}
+.ourService {
+  width: 100%;
+  min-height: 60vh;
+  background-color: #fdfdfd;
+  color: #242424;
+}
+.serviceContent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.serviceItem {
+  width: 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.serviceItem h3 {
+  padding: 1em;
+  font-size: 1.8em;
+}
+.serviceItem ion-icon {
+  font-size: 2em;
+  color: #ffc515;
+}
+.menu {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sort {
+  width: 800px;
+  height: 2em;
+  margin-bottom: 2em;
+}
+
+.sort ul {
+  list-style: none;
+  display: flex;
+}
+.menuItem {
+  display: none;
+}
+.menuName h4 {
+  font-size: 1.5em;
+}
+.menuName p {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.breakfast {
+  display: flex;
+  width: 50%;
+  height: 2em;
+}
+.contactUs {
+  width: 100%;
+  height: 70vh;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5a3c502ab7411c547466d5dd/1596822336071-PYTN4E1LH1ZY0KCFO55B/naples-food-photographer-owen-collective_0417.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #242424;
+  position: relative;
+}
+.containerForm {
+  width: 700px;
+  height: 600px;
+  background-color: #fdfdfd;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+.containerInput {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerInput input {
+  width: 49.5%;
+  height: 3em;
+  margin-bottom: 1em;
+  border: none;
+  padding: 10px;
+  background-color: #eff4f6;
+}
+.containerInput textarea {
+  background-color: #eff4f6;
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+.map {
+  width: 100%;
+  height: 30vh;
+  background-image: url('https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg');
+}
+.containerInput button {
+  margin-top: 1em;
+  width: 300px;
+  height: 50px;
+  background-color: #ffc515;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*media query max width 965px*/
+@media (max-width: 965px) {
+  .navBar {
+    width: 100vw !important;
+  }
+  .titleNavBar {
+    border: none;
+  }
+  .contactUsNum {
+    display: none;
+    width: 0px;
+  }
+  .navMenu {
+    border: none;
+  }
+}
